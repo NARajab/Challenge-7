@@ -25,7 +25,8 @@
     "sequelize": "^6.20.1",
     "sequelize-cli": "^6.4.1",
     "supertest": "^6.3.1",
-    "swagger-ui-express": "^4.4.0"
+    "swagger-ui-express": "^4.4.0",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "eslint": "^8.53.0",
