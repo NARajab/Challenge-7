@@ -4,6 +4,7 @@ const {
   DB_NAME = "bcr",
   DB_HOST = "127.0.0.1",
   DB_PORT = "5432",
+  DB_URI = DB_URI,
 } = process.env;
 
 // process.env.development = local
@@ -33,6 +34,10 @@ module.exports = {
     database: `${DB_NAME}_production`,
     host: DB_HOST,
     port: DB_PORT,
+    url: DB_URI,
     dialect: "postgres",
+    dialectOptions: {
+      ssl: true,
+    },
   },
 };
